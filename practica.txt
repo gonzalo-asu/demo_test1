@@ -1,0 +1,13 @@
+To create a readmd file use echo "# demo1" >> README.md
+
+Initialize the directory git init
+
+Create and add a README.md file. You can use a normal text editor depending on which OS you are using. git add README.md
+
+Check the status of the file git status
+
+Commit the changes git commit -m "first commit"
+
+Add the origin where we have to push the file. This is the SSHRepositoryLink you copied when you created the repository. git remote add origin git@github.com:mskill/demo1.git
+
+Push the file git push -u origin main
